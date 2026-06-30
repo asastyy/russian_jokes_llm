@@ -1,0 +1,8 @@
+datasets>=2.19
+huggingface-hub>=0.23
+ipykernel>=6.29
+jupyterlab>=4.2
+livelossplot>=0.5
+regex>=2024.5.15
+torch>=2.2
+tqdm>=4.66
