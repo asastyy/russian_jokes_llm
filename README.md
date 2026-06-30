@@ -44,8 +44,10 @@ jupyter lab notebooks/russian_jokes_mini_llm.ipynb
 
 Full training is GPU-oriented. The compact experiments are suitable for Colab, Kaggle, or a local CUDA setup.
 
-## Hugging Face Export
+## Hugging Face Model
 
-The notebook is configured to publish the tokenizer, model, and generated model card to a Hub repository named `russian-jokes-mini-llm` under the authenticated Hugging Face account. The model card is generated as `hf_model_card.md` locally and uploaded as `README.md` to the model repository.
+The trained tokenizer, model weights, and model card are published on Hugging Face Hub:
 
-Model weights are not committed to this Git repository; they should be trained locally or stored on Hugging Face Hub (asastyy/russian-jokes-llm).
+[asastyy/russian-jokes-llm](https://huggingface.co/asastyy/russian-jokes-llm)
+
+The notebook includes the export workflow for uploading the tokenizer, model, and generated model card to Hugging Face. Model weights are not committed to this Git repository; they can be trained locally or downloaded from the Hugging Face repository above.
