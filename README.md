@@ -48,4 +48,4 @@ Full training is GPU-oriented. The compact experiments are suitable for Colab, K
 
 The notebook is configured to publish the tokenizer, model, and generated model card to a Hub repository named `russian-jokes-mini-llm` under the authenticated Hugging Face account. The model card is generated as `hf_model_card.md` locally and uploaded as `README.md` to the model repository.
 
-Model weights are not committed to this Git repository; they should be trained locally or stored on Hugging Face Hub.
+Model weights are not committed to this Git repository; they should be trained locally or stored on Hugging Face Hub (asastyy/russian-jokes-llm).
